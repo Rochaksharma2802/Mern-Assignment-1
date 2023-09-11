@@ -1,0 +1,35 @@
+.main-container{
+    background-color: rgb(185, 23, 85);
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    margin-top: 20vh;
+}
+.sub-container{
+    background-color: rgb(118, 8, 50);
+    width: 500px;
+    height: 330px;
+    position: relative;
+    top: 10px;
+    left: 45px;
+}
+.button{
+    height: 20px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    position: relative;
+    top: -30px;
+    left: 70px;
+}
+table{
+    padding: 20px 60px 20px 60px;
+}
+label{
+    color: white;
+}
+.button{
+    padding: 15px 50px;
+}

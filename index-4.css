@@ -1,0 +1,35 @@
+#Nav a{
+    position: absolute;
+    font-size: 20px;
+    left: -82px;
+    width: 100px;
+    padding: 15px;
+    transition: 0.3s;
+    text-decoration: none;
+    border-radius: 0 5px 5px 0;
+    color: white;
+}
+
+#sideNav a:hover{
+    left: 0;
+}
+
+#DD{
+    top: 20px;
+    background-color:#04aa6d;
+}
+
+#New24{
+    top: 80px;
+    background-color:dodgerblue;
+}
+
+#Star{
+    top: 140px;
+    background-color: red;
+}
+
+#Discovery{
+    top:200px;
+    background-color:dimgray;
+}

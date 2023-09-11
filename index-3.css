@@ -1,0 +1,27 @@
+#cust{
+    border-collapse: collapse;
+    width: 100%
+}
+
+#cust td, #customers th{
+    border: 1px solid lightgray;
+    padding: 8px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#cust tr:nth-child(even){
+    background-color:rgb(242,242,242);
+}
+
+#cust tr:hover{
+    background-color:lightgray;
+}
+
+#cust th{
+    font-family: 'sans-serif';
+    text-align: left;
+    background-color:rgb(4,170,109);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+}

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+nav{
+    background-color:lightblue;
+    width: 200px;
+    height: 130px;
+    font-size: 20px;
+    /* padding: 10px; */
+}
+.vertical-navbar li a{
+    width: 100%;
+    /* height: 15px; */
+    padding: 8px;
+    list-style: none;
+}
+nav ul li:hover{
+    background-color: yellow;
+}
+a{
+    text-decoration: none;
+}
+
+/* -------------------for horizontal navigation bar----------------------- */
+
+.horizontal{
+    margin-top: 40px;
+    padding: 10px;
+    height: fit-content;
+    width: fit-content;
+    background-color: lightgray;
+}
+
+.horizontal ul li{
+    border: 2px solid darkgray;
+    display: inline-block;
+    padding: 5px 8px;
+}
+
+.horizontal ul li:hover{
+    background-color: darkgray;
+}
